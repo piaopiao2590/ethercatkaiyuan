@@ -1,0 +1,77 @@
+T31D4 000:055.021   SEGGER J-Link V7.84f Log File
+T31D4 000:055.122   DLL Compiled: Feb  7 2023 16:45:57
+T31D4 000:055.126   Logging started @ 2023-05-30 12:17
+T31D4 000:055.130 - 55.132ms
+T31D4 000:055.138 JLINK_SetWarnOutHandler(...)
+T31D4 000:055.143 - 0.006ms
+T31D4 000:055.148 JLINK_OpenEx(...)
+T31D4 000:056.762   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T31D4 000:057.381   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T31D4 000:057.513   Decompressing FW timestamp took 116 us
+T31D4 000:064.586   Hardware: V9.60
+T31D4 000:064.601   S/N: 69607367
+T31D4 000:064.606   OEM: SEGGER
+T31D4 000:064.610   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T31D4 000:066.004   TELNET listener socket opened on port 19021
+T31D4 000:066.119   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T31D4 000:066.217   WEBSRV Webserver running on local port 19080
+T31D4 000:069.711 - 14.574ms returns "O.K."
+T31D4 000:069.737 JLINK_SetErrorOutHandler(...)
+T31D4 000:069.740 - 0.006ms
+T31D4 000:069.756 JLINK_ExecCommand("ProjectFile = "E:\work\ethercat-yizhi\ethercat2\USER\JLinkSettings.ini"", ...). 
+T31D4 000:078.756   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T31D4 000:078.827   REF file references invalid XML file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T31D4 000:078.904 - 9.151ms returns 0x00
+T31D4 000:078.941 JLINK_ExecCommand("Device = STM32F405VGTx", ...). 
+T31D4 000:079.306   Device "STM32F405VG" selected.
+T31D4 000:079.714 - 0.771ms returns 0x00
+T31D4 000:079.723 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T31D4 000:079.728 - 0.002ms returns 0x01
+T31D4 000:079.733 JLINK_GetHardwareVersion()
+T31D4 000:079.736 - 0.004ms returns 96000
+T31D4 000:079.740 JLINK_GetDLLVersion()
+T31D4 000:079.743 - 0.004ms returns 78406
+T31D4 000:079.746 JLINK_GetOEMString(...)
+T31D4 000:079.750 JLINK_GetFirmwareString(...)
+T31D4 000:079.753 - 0.004ms
+T31D4 000:079.771 JLINK_GetDLLVersion()
+T31D4 000:079.774 - 0.004ms returns 78406
+T31D4 000:079.778 JLINK_GetCompileDateTime()
+T31D4 000:079.780 - 0.004ms
+T31D4 000:079.787 JLINK_GetFirmwareString(...)
+T31D4 000:079.790 - 0.004ms
+T31D4 000:079.795 JLINK_GetHardwareVersion()
+T31D4 000:079.798 - 0.004ms returns 96000
+T31D4 000:079.805 JLINK_GetSN()
+T31D4 000:079.808 - 0.004ms returns 69607367
+T31D4 000:079.813 JLINK_GetOEMString(...)
+T31D4 000:079.821 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T31D4 000:081.324 - 1.508ms returns 0x00
+T31D4 000:081.334 JLINK_HasError()
+T31D4 000:081.345 JLINK_SetSpeed(2000)
+T31D4 000:081.543 - 0.203ms
+T31D4 000:081.556 JLINK_GetId()
+T31D4 000:081.973   InitTarget() start
+T31D4 000:081.982    J-Link Script File: Executing InitTarget()
+T31D4 000:082.379   SWD selected. Executing JTAG -> SWD switching sequence.
+T31D4 000:084.651   DAP initialized successfully.
+T31D4 000:085.623   Can not attach to CPU. Trying connect under reset.
+T31D4 000:136.602   SWD selected. Executing JTAG -> SWD switching sequence.
+T31D4 000:140.754   DAP initialized successfully.
+T31D4 000:142.152   Connecting to CPU via connect under reset failed.
+T31D4 000:193.286   InitTarget() end
+T31D4 000:193.355   Connect failed. Resetting via Reset pin and trying again.
+T31D4 000:256.304   InitTarget() start
+T31D4 000:256.344    J-Link Script File: Executing InitTarget()
+T31D4 000:257.003   SWD selected. Executing JTAG -> SWD switching sequence.
+T31D4 000:261.054   DAP initialized successfully.
+T31D4 000:262.473   Can not attach to CPU. Trying connect under reset.
+T31D4 000:314.309   SWD selected. Executing JTAG -> SWD switching sequence.
+T31D4 000:318.487   DAP initialized successfully.
+T31D4 000:319.985   Connecting to CPU via connect under reset failed.
+T31D4 000:371.335   InitTarget() end
+T31D4 000:371.374 - 289.823ms returns 0x00000000
+T31D4 001:724.882 JLINK_Close()
+T31D4 001:741.510 - 16.645ms
+T31D4 001:741.531   
+T31D4 001:741.535   Closed
